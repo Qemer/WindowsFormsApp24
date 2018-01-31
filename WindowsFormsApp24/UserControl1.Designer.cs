@@ -75,6 +75,7 @@
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(121, 21);
             this.comboBox3.TabIndex = 0;
+            this.comboBox3.Text = "0";
             // 
             // comboBox4
             // 
@@ -83,6 +84,7 @@
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(121, 21);
             this.comboBox4.TabIndex = 0;
+            this.comboBox4.Text = "0";
             // 
             // comboBox5
             // 
@@ -91,6 +93,7 @@
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(121, 21);
             this.comboBox5.TabIndex = 0;
+            this.comboBox5.Text = "0";
             // 
             // button1
             // 

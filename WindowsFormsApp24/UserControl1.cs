@@ -21,6 +21,7 @@ namespace WindowsFormsApp24
         }
         private static UserControl1 instance;
         Bilet bilet;
+        static int vaqnum=1;
         public static List<Bilet> biletlist;
         public static UserControl1 Instance
         {
@@ -160,13 +161,14 @@ namespace WindowsFormsApp24
             {
                 bilet = new Bilet();
                 biletlist = new List<Bilet>();
-
+                vaqnum++;
                 bilet.Haradan = comboBox1.Text;
                 bilet.Hara = comboBox2.Text;
                 bilet.Boyuk = comboBox3.Text;
                 bilet.Ushaq = comboBox4.Text;
                 bilet.Korpe = comboBox5.Text;
                 bilet.GedTarix = textBox1.Text;
+                bilet.Vaqon = vaqnum.ToString();
                 if (panel1.Visible)
                 {
                     bilet.GelTarix = textBox2.Text;

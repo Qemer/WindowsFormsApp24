@@ -1,0 +1,3 @@
+﻿1>------ Build started: Project: WindowsFormsApp24, Configuration: Debug Any CPU ------
+1>  WindowsFormsApp24 -> C:\Users\shir_yf21\source\repos\WindowsFormsApp24\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
