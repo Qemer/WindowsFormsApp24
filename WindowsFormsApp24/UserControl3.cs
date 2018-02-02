@@ -86,7 +86,10 @@ namespace WindowsFormsApp24
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Controls.Add(UserControl4.Instance);
+            UserControl4.Instance.Dock = DockStyle.Fill;
+            UserControl4.Instance.BringToFront();
+            instance = null;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -95,6 +98,13 @@ namespace WindowsFormsApp24
             UserControl2.Instance.Dock = DockStyle.Fill;
             UserControl2.Instance.BringToFront();
             instance = null;
+        }
+
+        private void textBox1_Click(object sender, EventArgs e)
+        {
+            TextBox text = (TextBox)sender;
+            text.Clear();
+
         }
     }
 }
